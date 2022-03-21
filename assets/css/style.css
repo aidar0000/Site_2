@@ -64,3 +64,64 @@ a{
 
 /* our */
 
+.our_wrapper{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.our_subtitle{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF8A63;
+}
+.our_subtext{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    color: #45525B;
+}
+.our_text{
+    margin-right: 100px;
+}
+.our_subtitle2{
+    width: 561px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333333;
+}
+.ava{
+    display: flex;
+    margin-top: 20px;
+}
+.ava_text{
+    margin-top: 20px;
+}
+.ava_ava{
+    margin-right: 20px;
+}
+.ava_name{
+    margin-right: 20px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #45525B;
+}
+.ava_prof{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6F7278;
+}
