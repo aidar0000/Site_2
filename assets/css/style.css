@@ -203,3 +203,13 @@ a{
     line-height: 20px;
     color: #6F7278;
 }
+
+/* house */
+
+.house{
+    background: url('../img/photo/house1.png') no-repeat center center / cover;
+    height: 600px;
+}
+
+/*  */
+
