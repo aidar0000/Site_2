@@ -3,3 +3,64 @@
     src: url("../fonts/Poppins-Regular.ttf") format("truetype");
     font-weight: 400;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/* header */
+
+.container{
+    width: 1175px;
+    margin: 0 auto;
+}
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    margin: 15px;
+}
+.header_nav_text{
+    margin-right: 30px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #444444;
+}
+
+/* logo */
+
+.logo{
+    background: url('../img/photo/ground.png') no-repeat center center / cover;
+}
+.logo_wrapper{
+    padding-bottom: 60px;
+    padding-top: 245px;
+}
+.logo_icon{
+    margin: 0 auto;
+    display: block;
+}
+.logo_title{
+    padding-bottom: 150px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;
+    color: #45525B;
+    margin-top: 20px;
+}
+.logo_str{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* our */
+
