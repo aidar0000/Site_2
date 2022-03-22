@@ -10,6 +10,9 @@
 a{
     text-decoration: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     overflow-x: hidden;
 }
@@ -180,6 +183,7 @@ body{
     border: none;
     width: 300px;
     height: 167px;
+    border: 1px solid transparent;
 }
 .choose_btn:hover{
     background: #FAFAFC;
@@ -300,3 +304,6 @@ body{
     justify-content: space-between;
     margin-bottom: 20px;
 }
+
+/* team */
+
