@@ -10,6 +10,9 @@
 a{
     text-decoration: none;
 }
+body{
+    overflow-x: hidden;
+}
 
 /* header */
 
@@ -170,6 +173,7 @@ a{
     display: grid;
 }
 .choose_btn{
+    border: 1px solid transparent;
     padding-left: 21px;
     text-align: left;
     background: none;
@@ -211,5 +215,88 @@ a{
     height: 600px;
 }
 
-/*  */
+/* store */
 
+.store{
+    background-color: #FAFAFC;
+}
+.store_wrapper{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.store_text{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF8A63;
+}
+.store_text2{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #45525B;
+}
+.store_text3{
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6F7278;
+}
+.store_content{
+    margin-top: 30px;
+}
+.store_house_text{
+    margin-top: 15px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6F7278;
+}
+.store_house_name{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #45525B;
+}
+.store_house_info{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content:center;
+    display: flex;
+}
+.store_house_bed{
+    margin-right: 10px;
+}
+.store_house_bed_text{
+    margin-right: 20px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    color: #45525B;
+}
+.house1{
+    border: none;
+    background: white;
+}
+.house1:hover{
+    box-shadow: 0 0 10px black;
+}
+.store_btns{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
