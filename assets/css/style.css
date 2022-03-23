@@ -304,6 +304,14 @@ body{
     justify-content: space-between;
     margin-bottom: 20px;
 }
+.store_a{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #45525B;
+}
 
 /* team */
 
